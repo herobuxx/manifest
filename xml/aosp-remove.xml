@@ -5,7 +5,6 @@
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
-  <remove-project name="platform/build/release" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bootable/deprecated-ota" />
   <remove-project name="platform/bootable/recovery" />
@@ -17,8 +16,6 @@
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/art" />
-  <remove-project name="device/generic/car" />
-  <remove-project name="device/generic/trusty" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google_car" />
@@ -33,22 +30,16 @@
   <!-- External -->
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/bouncycastle" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/exfatprogs" />
-  <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/gptfdisk" />
-  <remove-project name="platform/external/libcupsfilters" />
-  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libjxl" />
-  <remove-project name="platform/external/libopenapv" />
-  <remove-project name="platform/external/libpng" />
-  <remove-project name="platform/external/libppd" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/robolectric" />
   <remove-project name="platform/external/setupcompat" />
-  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zstd" />
@@ -62,9 +53,6 @@
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/google/pixel" />
-  <remove-project name="platform/hardware/google/pixel-sepolicy" />
-  <remove-project name="platform/hardware/nxp/secure_element" />
   <remove-project name="platform/hardware/st/nfc" />
   <remove-project name="platform/hardware/qcom/wlan" />
 
@@ -73,13 +61,12 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Calendar" />
-  <remove-project name="platform/packages/apps/CertInstaller" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Gallery" />
-  <remove-project name="platform/packages/apps/KeyChain" />
+  <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -89,33 +76,24 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/adb" />
-  <remove-project name="platform/packages/modules/common" />
-  <remove-project name="platform/packages/modules/IntentResolver" />
-  <remove-project name="platform/packages/modules/Nfc" />
-  <remove-project name="platform/packages/modules/Permission" />
-  <remove-project name="platform/packages/modules/UprobeStats" />
-  <remove-project name="platform/packages/modules/Uwb" />
-  <remove-project name="platform/packages/modules/Virtualization" />
-  <remove-project name="platform/packages/modules/Wifi" />
-  <remove-project name="platform/packages/providers/ContactsProvider" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/DeviceAsWebcam" />
-  <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
 
   <!-- System -->
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/incremental_delivery" />
-  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/fs/fs_mgr" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/libmeminfo" />
+  <remove-project name="platform/system/memory/libion" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/zygote" />
 
 </manifest>

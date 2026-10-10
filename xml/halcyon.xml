@@ -36,18 +36,18 @@
   <project path="manifest" name="manifest" remote="halcyon" />
 
   <!-- Device -->
-  <project path="device/halcyon/sepolicy" name="device_halcyon_sepolicy" remote="hlcyn" />
+  <project path="device/halcyon/sepolicy" name="device_halcyon_sepolicy" remote="halcyon" />
 
   <!-- External -->
   <project path="external/bouncycastle" name="external_bouncycastle" remote="halcyon" />
-  <project path="external/robolectric" name="external_robolectric" remote="hlcyn" />
-  <project path="external/setupcompat" name="external_setupcompat" remote="hlcyn" />
+  <project path="external/robolectric" name="external_robolectric" remote="halcyon" />
+  <project path="external/setupcompat" name="external_setupcompat" remote="halcyon" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="halcyon" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="halcyon" />
   <project path="frameworks/base" name="frameworks_base" remote="halcyon" />
-  <project path="frameworks/halcyon" name="frameworks_halcyon" remote="hlcyn" />
+  <project path="frameworks/halcyon" name="frameworks_halcyon" remote="halcyon" />
   <project path="frameworks/native" name="frameworks_native" remote="halcyon" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="halcyon" />
 
@@ -58,28 +58,28 @@
   <project path="kernel/configs" name="kernel_configs" remote="halcyon" />
 
   <!-- Packages -->
-  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="hlcyn" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="hlcyn" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="hlcyn" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="hlcyn" />
-  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="hlcyn" />
-  <project path="packages/apps/Etar" name="packages_apps_Etar" remote="hlcyn" />
-  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="hlcyn" />
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="halcyon" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="halcyon" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="halcyon" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="halcyon" />
+  <project path="packages/apps/Etar" name="packages_apps_Etar" remote="halcyon" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="halcyon" />
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="halcyon-gitlab" />
-  <project path="packages/apps/Freeform" name="packages_apps_Freeform" remote="hlcyn" />
-  <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="hlcyn" />
-  <project path="packages/apps/Nest" name="packages_apps_Nest" remote="hlcyn" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="hlcyn" />
+  <project path="packages/apps/Freeform" name="packages_apps_Freeform" remote="halcyon" />
+  <project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="halcyon" />
+  <project path="packages/apps/Nest" name="packages_apps_Nest" remote="halcyon" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="halcyon" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
-  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="hlcyn" />
-  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="hlcyn" />
-  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="hlcyn" />
-  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="hlcyn" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="hlcyn" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="halcyon" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="halcyon" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="halcyon" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="halcyon" />
 
   <!-- Packages Libraries -->
-  <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="hlcyn" />
-  <project path="packages/libraries/BlurView" name="packages_libraries_BlurView" remote="hlcyn" />
+  <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
+  <project path="packages/libraries/BlurView" name="packages_libraries_BlurView" remote="halcyon" />
 
   <!-- Packages Modules -->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon" />
@@ -107,7 +107,7 @@
 
   <!-- Vendor -->
   <project path="vendor/halcyon" name="vendor_halcyon" remote="halcyon" />
-  <project path="vendor/halcyonui" name="vendor_halcyonui" remote="hlcyn" />
+  <project path="vendor/halcyonui" name="vendor_halcyonui" remote="halcyon" />
   <project path="vendor/gms" name="vendor_gms" remote="halcyon-gitlab" />
 
 </manifest>
